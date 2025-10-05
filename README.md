@@ -125,11 +125,11 @@ A **Postman collection** is also included in the repository for testing all endp
 
 | Method | Endpoint | Description | Access |
 |---------|-----------|-------------|--------|
-| `GET` | `/api/tasks` | List tasks | Manager: all, User: own |
-| `POST` | `/api/tasks` | Create a new task | Manager only |
-| `GET` | `/api/tasks/{id}` | View a single task | Manager: any, User: own |
-| `PUT` | `/api/tasks/{id}` | Update task | Manager: full, User: status only |
-| `DELETE` | `/api/tasks/{id}` | Delete task | Manager only |
+| `GET` | `/api/v1/tasks` | List tasks | Manager: all, User: own |
+| `POST` | `/api/v1/tasks` | Create a new task | Manager only |
+| `GET` | `/api/v1/tasks/{id}` | View a single task | Manager: any, User: own |
+| `PUT` | `/api/v1/tasks/{id}` | Update task | Manager: full, User: status only |
+| `DELETE` | `/api/v1/tasks/{id}` | Delete task | Manager only |
 
 ---
 
